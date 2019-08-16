@@ -72,7 +72,7 @@ int partition( unsigned int A[], int l, int r)
 	/* keeps track of which elements are less than
 	 * the pivot and which are greater. More exactly,
 	 * A[l+1],...,A[i-1] are less than the pivot while
-	 * A[i+1],...,A[j-1] are greater than the pivot.
+	 * A[i],...,A[j-1] are greater than the pivot.
 	 */
 	int i = l+1;
 
