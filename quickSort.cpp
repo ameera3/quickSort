@@ -166,7 +166,7 @@ unsigned int numCompare(const char* inFile, unsigned int pivotOption)
 	numComparisons = quickSort(arr, 0, ARRAY_SIZE-1, pivotOption);
 
 	// no memory leaks here
-        delete[] arr;
+        free(arr);
 
 	return numComparisons;
 	

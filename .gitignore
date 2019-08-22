@@ -4,5 +4,6 @@
 # Except for these:
 !.gitignore
 !Makefile
+!*.txt
 !*.cpp
 !*.md
